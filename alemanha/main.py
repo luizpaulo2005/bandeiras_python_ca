@@ -11,7 +11,6 @@ def sketch(p):
         p.rectMode(p.CORNER)
 
     def draw():
-        # x, y, l, c
         p.fill(0, 0, 0)
         p.rect(0, 0, 400, 300/3)
         p.fill(239, 51, 64)
