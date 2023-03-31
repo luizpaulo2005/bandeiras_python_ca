@@ -11,12 +11,13 @@ def sketch(p):
         p.rectMode(p.CORNER)
 
     def draw():
+        # x, y, l, c
         p.fill(0, 0, 0)
-        p.rect(0, 0, 400/3, 300)
-        p.fill(253, 218, 36)
-        p.rect(400/3, 0, 400/3, 300)
+        p.rect(0, 0, 400, 300/3)
         p.fill(239, 51, 64)
-        p.rect(400/3 * 2, 0, 400/3, 300)
+        p.rect(0, 300 / 3 * 1, 400, 300/3)
+        p.fill(253, 218, 36)
+        p.rect(0, 300 / 3 * 2, 400, 300/3)
 
     p.setup = setup
     p.draw = draw
