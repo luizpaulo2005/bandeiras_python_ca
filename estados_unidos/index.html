@@ -21,11 +21,20 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Estados</title>
+	<title>Estados Unidos</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<body onload="brython(1)">
+  <body
+    onload="brython(1)"
+    class="pt-2 flex flex-col gap-2 justify-center items-center"
+  >
+    <div class="flex flex-row justify-evenly items-center w-screen sm:w-full sm:flex-col">
+      <p class="text-4xl">Bandeira dos Estados Unidos</p>
+      <a href="../index.html" class="p-2 bg-blue-500 rounded-md text-white">Página Inicial</a>
+    </div>
 	<script type="text/python" src="main.py"></script>
 </body>
 
